@@ -1,0 +1,23 @@
+{
+  "name": "project-base",
+  "version": "0.0.0",
+  "description": "A template for course web design projects.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/advanced-web-design/project-base.git"
+  },
+  "author": "Adam D Scott",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "e40782add60d3c2dfcdd0fe463639e1c7485dcca",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-csslint": "^0.2.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-html-validation": "^0.1.18"
+  }
+}

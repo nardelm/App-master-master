@@ -1,0 +1,484 @@
+/*! Advanced Web Design Starter CSS
+ *! Based on HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+
+/* !!! place all of your custom styles here !!! */
+body {
+    box-sizing: border-box;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    overflow: none;
+    }
+
+
+img {
+max-width: 100%;
+}
+
+
+#header-id .hand {
+ float: right;
+    
+}
+
+.page-header {
+    background-image: url('/img/headerimage.png');
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: 100%;
+     border-style: solid;
+    border-bottom-color: red;
+    
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.wrap {
+  max-width: 1000px; 
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.col {
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 10p;
+}
+
+.slogan {
+    text-align: center;
+}
+
+.header-logos {
+ 
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+}
+    
+
+
+
+
+.footer {
+    background-color: #041757;
+    padding: 30px;
+    border-style: solid;
+    border-top-color: red;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+    font-size: 10px;
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    padding: 20px;
+}
+.go-husky,
+.go-husky img {
+    width: 100%;
+    
+    
+}
+
+.headerimage {
+    position: absolute;
+    width: 100%;
+    margin-top: -60px;
+    padding:0;
+    z-index: 100;
+}
+
+
+.icons {
+    text-align: center;
+    padding: 35px;
+}
+
+.heading-block {
+    display: block;
+}
+.bkg-img-p {
+    display: inline-block;
+    width: 50%;
+    
+}
+
+.bigger {
+    font-size: 3em;
+    line-height: 1;
+}
+
+.p-color {
+    color: #323333;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+
+p {
+    color: white;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+/* nav styles */
+
+.nav-list {
+  margin: 0;
+padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-right: 12px;
+    padding: 5px;
+    
+}
+
+
+
+.nav-list li:first-child {
+  margin-left: 0;
+}
+
+.nav-list a {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+  text-transform: lowercase;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.1s linear;
+}
+
+.nav-list a:link,
+.nav-list a:visited {
+  color: #eee;
+}
+
+.nav-list a:hover,
+.nav-list a:active,
+.nav-list a:focus {
+  opacity: .5;
+  
+}
+
+/* media queries */
+
+@media (min-width: 720px) {
+  .content-column {
+    width: 33.33333333%;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-right: 20px;  
+  }
+  
+  .content-column:first-child {
+    padding-left: 0;
+  }
+  
+  .content-column:last-child {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .content-column {
+    width: 100%;
+    border-bottom: 1px solid #6c7a89;
+  }
+}
+
+@media all and (max-width: 800px) {
+ .hand {
+    display: none;   
+ }
+    
+}
+
+.maps {
+ text-align: center;
+    max-width: 100%;
+    
+}
+
+@media all and (max-width: 800px) {
+   
+    .header-logos {
+        display: none;   
+    }
+    
+    
+    
+    .bkg-img-p {
+     display: none;   
+    }
+    
+    .page-header {
+        background-image: url('/img/homeappmock.png');
+        background-repeat: no-repeat;
+    }   
+    
+  
+    
+    .nav-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: right;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-right: 12px;
+    padding: 5px;
+    
+}
+
+
+
+.nav-list li:first-child {
+  margin-left: 0;
+}
+
+.nav-list a {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+  text-transform: lowercase;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.1s linear;
+}
+
+.nav-list a:link,
+.nav-list a:visited {
+  color: black;
+}
+
+.nav-list a:hover,
+.nav-list a:active,
+.nav-list a:focus {
+  opacity: .5;
+  
+}
+    
+    
+}
+
+#content {
+ overflow: hidden;   
+}
+
+
+.p-feature {
+    color: #666973;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+h1, h2, h3 {
+    color: #666973;
+}
+
+.uconn-stamford {
+    float:left;
+    padding-bottom: 50px;
+}
+
+.header-logos {
+    padding: 0;   
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
